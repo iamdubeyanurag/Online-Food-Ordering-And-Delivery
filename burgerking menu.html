@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Menu</title>
+</head>
+<body>
+    <header>
+        <h1>Burger King Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="html project.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="menu">
+            <div class="dish">
+                <img src="vegwhooper.jpg" alt="veg whooper">
+                <h2>Veg Whooper</h2>
+                <p>Price: ₹179</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="dish">
+                <img src="chickenwhooper.jpg" alt="chicken whooper">
+                <h2>Chicken Whooper</h2>
+                <p>Price: ₹199</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="dish">
+                <img src="Hot 'N' Cheezy Burger.jpg" alt="Burger img">
+                <h2>Hot 'N' Cheezy Burger</h2>
+                <p>Price: ₹199</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="dish">
+                <img src="Fiery Chicken Burger.jpg" alt="img">
+                <h2>Fiery Chicken Burger</h2>
+                <p>Price: ₹199</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>Discover the story behind our commitment to delivering exceptional food experiences...</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: info@fooddelivery.com</p>
+            <p>Phone: +1 123-456-7890</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Get Help</h3>
+            <p>Find answers to your questions in our FAQs. Learn about our Terms of Service and Privacy Policy.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Careers</h3>
+            <p>Explore exciting career opportunities with our passionate team. Check our current job openings...</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Have a Question?</h3>
+            <p>Submit your details and questions using the form below:</p>
+            <form action="submit_question.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="question">Question:</label>
+                <textarea id="question" name="question" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

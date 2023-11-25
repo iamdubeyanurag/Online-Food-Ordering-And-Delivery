@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Food Delivery System</title>
+</head>
+<body>
+    <header>
+        <h1>Food Delivery System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="favourites.html">Favourites</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p>Take a break from Cooking and get your food from your favourite outlets delivered at your door step in no time. :)</p>
+        <section class="featured-dishes">
+            <h2>Best Sellers</h2>
+            <div class="dish">
+                <img src="vegwhooper.jpg" alt="Veg Whooper">
+                <h3>Veg Whooper</h3>
+                <p>Our signature Whopper with 7 layers between the buns. Extra crunchy veg patty, fresh onions, crispy lettuce, juicy tomatoes (seasonal), tangy gherkins, creamy and smoky sauces with new premium buns. Swaad Aisa, India Jaisa.</p>
+                <p>Price: ₹179</p>
+                <button onclick>Add to Cart</button>
+            </div>
+            <div class="dish">
+                <img src="chicken dum biryani.jpg" alt="Dish">
+                <h3>Hyderabadi Chicken Dum Biryani(Boneless)</h3>
+                <p>Hyderabadi chicken biryani with boneless chicken pieces and served with raita</p>
+                <p>Price: ₹339</p>
+                <button onclick>Add to Cart</button>
+            </div>
+            <div class="dish">
+                <img src="Double Cheese Margherita Pizza.jpg" alt="Dish">
+                <h3>Double Cheese Margherita Pizza</h3>
+                <p>A classic delight loaded with extra 100% real mozzarella cheese</p>
+                <p>Price: ₹399</p>
+                <button onclick>Add to Cart</button>
+        </section>
+        <section class="restaurant-list">
+                <h2>Restaurants</h2>
+
+            <div class="restaurant">
+                    <img src="burgerking.png" alt="Burger king Logo">
+                    <h3>Burger King</h3>
+                    <button onclick="window.location.href='burgerking menu.html?restaurant=1'">View Menu</button>
+            </div>
+            <div class="restaurant">
+                <img src="biranublues.jpeg" alt="Biryani Blues Logo" height="100px">
+                <h3>Biryani Blues</h3>
+                <button onclick="window.location.href='menu.html?restaurant=2'">View Menu</button>
+            </div>
+            <div class="restaurant">
+                    <img src="dominos.jpg" alt="Dominos Logo" height="100px" width="100">
+                    <h3>Domino's Pizza</h3>
+                    <button onclick="window.location.href='menu.html?restaurant=3'">View Menu</button>
+            </div>
+            <div class="restaurant">
+                <img src="starbucks logo.png" alt="starbucks logo">
+                <h3>Starbucks Coffee</h3>
+                <button onclick="window.location.href='menu.html?restaurant=4'">View Menu</button>
+            </div>
+
+        </section>           
+
+        <section class="promotions">
+            <h2>Special Promotions</h2>
+            <p>Explore our latest promotions and exciting discounts. Don't miss out on the chance to enjoy great food at amazing prices!</p>
+            <a href="biryani blues menu.html"><img src="discount,jpeg.jpeg" alt="Discount"></a>
+            <a href="starbucks menu.html"><img src="discount.jpg" alt="Discount"></a>
+        </section>
+
+        <section class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial">
+                <p>"The food is absolutely fantastic! I've never tasted anything quite like it. The flavors are rich, and the presentation is top-notch. A definite must-try!"</p>
+                <p>- Shivam Maurya</p>
+            </div>
+            <div class="testimonial">
+                <p>"The delivery was really fast and packaging was very good"</p>
+                <p>- Mayank Sharma</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>Discover the story behind our commitment to delivering exceptional food experiences...</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: info@fooddelivery.com</p>
+            <p>Phone: +1 123-456-7890</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Get Help</h3>
+            <p>Find answers to your questions in our FAQs. Learn about our Terms of Service and Privacy Policy.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Careers</h3>
+            <p>Explore exciting career opportunities with our passionate team. Check our current job openings...</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Have a Question?</h3>
+            <p>Submit your details and questions using the form below:</p>
+            <form action="submit_question.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="question">Question:</label>
+                <textarea id="question" name="question" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html> 
